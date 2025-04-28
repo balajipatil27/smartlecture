@@ -9,7 +9,7 @@ import openai
 app = Flask(__name__)
 app.secret_key = "supersecretkey"
 
-# openai.api_key = "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"
+# openai.api_key = "apikey"
 
 # Database configuration
 app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get("DATABASE_URL", "sqlite:///users.db")
